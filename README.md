@@ -62,6 +62,7 @@ Here is an example of using that testcase to schedule the processes using priori
 ./scheduler test8.txt out.txt -s 1 -m 1
 ```
 After that the program generates an output file which looks like the following: 
+
 ```
  TIME      PID     PREVIOUS    CURRENT
 
