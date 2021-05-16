@@ -162,7 +162,30 @@ AVERAGE CPU BURST TIME >>> 17.50 ms/process
 - Note that the testfiles should either be in the same directory as the program or the full path needs to be provided.
 - Note that the time slice is only used for the round robin scheduler so if the -t flag is specified for the other algorithms it will not affect the behaviour of the program
 - Note that the algorithm used for memory management is first fit. It is assumed that the total memory of the system is 1Gb and it has 4 partitions of 500Mb, 250Mb, 150Mb, and 100Mb. 
-  
+
+There are some examples in the outputs folder and the commands used to generate those outputs are the following:
+```
+1. Testing fcfs
+./scheduler test1.txt out1.txt 
+./scheduler test5.txt out5.txt -s 0
+
+2. 
+2.1 Testing round robin with the default value
+./scheduler test2.txt out2_rr_1000.txt -s 2 
+
+2.2 Testing round robin with other time slots
+./scheduler test2.txt out2_rr_5000.txt -s 2 -t 5000 
+./scheduler test6.txt out6.txt -s 2 -t 2000
+
+3. Testing the priority scheduler 
+./scheduler test3.txt out3.txt -s 1
+./scheduler test4.txt out4.txt -s 1
+./scheduler test7.txt out7.txt -s 1 
+
+4. Testing the memory allocation feature
+./scheduler test8.txt out8.txt -s 1 -m 1
+```
+
 ## CREDITS
 Author: Bardia Parmoun
 
