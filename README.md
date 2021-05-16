@@ -37,7 +37,7 @@ $ ./kernelsim test1.txt out1.text -flags
 
 For example to use the -s flag and the priority scheduler you can use:
 ```
-./scheduler test.txt out8.txt -s 1
+./scheduler test.txt out.txt -s 1
 ```
 ## USING THE PROGRAM
 To run the program first a testcase must be provided with a list of processes such as the following example:
@@ -59,7 +59,7 @@ To run the program first a testcase must be provided with a list of processes su
 
 Here is an example of using that testcase to schedule the processes using priority scheduling and memory management:
 ```
-./scheduler test8.txt out.txt -s 1 -m 1
+./scheduler test8.txt out8.txt -s 1 -m 1
 ```
 After that the program generates an output file which looks like the following: 
 
