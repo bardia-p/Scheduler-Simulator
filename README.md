@@ -7,7 +7,7 @@ Released on: 15/05/2021
 
 ## DESCRIPTION
 - This program is used to simulate the behaviour of a simple scheduler.
-- It takes a list of processes and schedulers them based on the given scheduling algorithim and specifications following the behaviour that is specificied in the following state diagram
+- It takes a list of processes and schedulers them based on the given scheduling algorithm and specifications following the behaviour that is specificied in the following state diagram
 <p align="center">
 <img src="images/statediagrams.JPG" />
 </p>
