@@ -1,0 +1,93 @@
+ TIME      PID     PREVIOUS    CURRENT
+
+
+MEMORY HAS BEEN ALLOCATED TO PROCESS 1
+Total used memory: 150 Mb
+Used memory partitions: 1
+Free memory partitions: 3
+Total amount of free memory: 850 MB 
+Total amount of free usable memory: 500 Mb
+
+    0          1        NEW      READY
+
+    0          1      READY    RUNNING
+
+   20          1    RUNNING TERMINATED
+
+
+MEMORY HAS BEEN ALLOCATED TO PROCESS 2
+Total used memory: 350 Mb
+Used memory partitions: 1
+Free memory partitions: 3
+Total amount of free memory: 650 MB 
+Total amount of free usable memory: 500 Mb
+
+   25          2        NEW      READY
+
+   25          2      READY    RUNNING
+
+
+MEMORY HAS BEEN ALLOCATED TO PROCESS 3
+Total used memory: 500 Mb
+Used memory partitions: 2
+Free memory partitions: 2
+Total amount of free memory: 500 MB 
+Total amount of free usable memory: 250 Mb
+
+   30          3        NEW      READY
+
+   50          2    RUNNING TERMINATED
+
+   51          3      READY    RUNNING
+
+
+MEMORY HAS BEEN ALLOCATED TO PROCESS 4
+Total used memory: 400 Mb
+Used memory partitions: 2
+Free memory partitions: 2
+Total amount of free memory: 600 MB 
+Total amount of free usable memory: 250 Mb
+
+   60          4        NEW      READY
+
+   76          3    RUNNING TERMINATED
+
+   77          4      READY    RUNNING
+
+   92          4    RUNNING TERMINATED
+
+
+MEMORY HAS BEEN ALLOCATED TO PROCESS 5
+Total used memory: 200 Mb
+Used memory partitions: 1
+Free memory partitions: 3
+Total amount of free memory: 800 MB 
+Total amount of free usable memory: 500 Mb
+
+  100          5        NEW      READY
+
+  100          5      READY    RUNNING
+
+  110          5    RUNNING TERMINATED
+
+
+MEMORY HAS BEEN ALLOCATED TO PROCESS 6
+Total used memory: 300 Mb
+Used memory partitions: 1
+Free memory partitions: 3
+Total amount of free memory: 700 MB 
+Total amount of free usable memory: 500 Mb
+
+  111          6        NEW      READY
+
+  111          6      READY    RUNNING
+
+  121          6    RUNNING TERMINATED
+
+
+NUMBER OF PROCESSES >>> 6
+THROUGHPUT >>> 20.33 ms/process
+AVERAGE TURNAROUND TIME >>> 23.83 ms/process
+TOTAL WAIT TIME >>> 38 ms
+AVERAGE WAIT TIME >>> 6.33 ms/process
+AVERAGE CPU BURST TIME >>> 17.50 ms/process
