@@ -23,7 +23,7 @@ $ gcc scheduler.c -o scheduler
 ```
 2. After that an executable with the name of scheduler has been generated which can then be used with the test cases:
 ```shell
-$ ./kernelsim test1.txt out1.text -flags
+$ ./scheduler test.txt out.text -flags
 ```
 - Note that the testcases are located in the testcases folder and you need to make sure the file and the test file are located in the same folder. 
 
